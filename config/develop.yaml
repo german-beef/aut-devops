@@ -1,0 +1,15 @@
+compute_engine:
+  name: dev-portainer-vm
+  zone: us-central1-a
+  machine_type: e2-custom-2-4096
+  image_project: debian-cloud
+  image_family: debian-11
+
+cloud_sql:
+  name: dev-db
+  tier: db-f1-micro
+  region: us-central1
+
+secret_manager:
+  service_name: secret
+

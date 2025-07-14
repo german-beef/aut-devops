@@ -1,0 +1,4 @@
+client_name: test-ger
+project_id_develop: aut-devops
+project_id_staging: aut-devops
+project_id_production: aut-devops
